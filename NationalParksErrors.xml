@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- ERROR 1: Root element is NationalPark instead of NationalParks -->
 <NationalPark>
 
-  <!-- Park 1: Grand Canyon - valid -->
   <NationalPark Rating="4.9">
     <Name>Grand Canyon</Name>
     <Phone>928-638-7496</Phone>
@@ -17,7 +15,6 @@
     </Address>
   </NationalPark>
 
-  <!-- Park 2: Yellowstone - ERROR 2: required attribute NearestAirport is missing from Address -->
   <NationalPark>
     <Name>Yellowstone</Name>
     <Phone>307-344-7381</Phone>
@@ -30,7 +27,6 @@
     </Address>
   </NationalPark>
 
-  <!-- Park 3: Yosemite - valid -->
   <NationalPark Rating="4.8">
     <Name>Yosemite</Name>
     <Phone>209-372-0200</Phone>
@@ -44,7 +40,6 @@
     </Address>
   </NationalPark>
 
-  <!-- Park 4: Zion - ERROR 3: Phone element is missing -->
   <NationalPark>
     <Name>Zion</Name>
     <Address NearestAirport="St. George Regional">
@@ -56,7 +51,6 @@
     </Address>
   </NationalPark>
 
-  <!-- Park 5: Rocky Mountain - ERROR 4: Address element has no closing tag -->
   <NationalPark Rating="4.7">
     <Name>Rocky Mountain</Name>
     <Phone>970-586-1206</Phone>
@@ -70,7 +64,6 @@
 
   </NationalPark>
 
-  <!-- Park 6: Acadia - ERROR 5: Two Name elements provided -->
   <NationalPark Rating="4.8">
     <Name>Acadia</Name>
     <Name>Acadia National Park</Name>
@@ -85,7 +78,6 @@
     </Address>
   </NationalPark>
 
-  <!-- Park 7: Great Smoky Mountains - valid -->
   <NationalPark>
     <Name>Great Smoky Mountains</Name>
     <Phone>865-436-1200</Phone>
@@ -98,7 +90,6 @@
     </Address>
   </NationalPark>
 
-  <!-- Park 8: Glacier - valid -->
   <NationalPark Rating="4.9">
     <Name>Glacier</Name>
     <Phone>406-888-7800</Phone>
