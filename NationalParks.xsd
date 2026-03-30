@@ -6,13 +6,13 @@
     <xs:complexType>
       <xs:sequence>
         <!-- One or more NationalPark elements -->
-        <xs:element name="NationalPark" maxOccurs="unbounded">
+        <xs:element name="NationalPark" minOccurs="1" maxOccurs="unbounded">
           <xs:complexType>
             <xs:sequence>
               <!-- Name element: required, exactly one -->
               <xs:element name="Name" type="xs:string"/>
               <!-- Phone element: required, one or more allowed -->
-              <xs:element name="Phone" type="xs:string" maxOccurs="unbounded"/>
+              <xs:element name="Phone" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
               <!-- Address element: required, exactly one -->
               <xs:element name="Address">
                 <xs:complexType>
